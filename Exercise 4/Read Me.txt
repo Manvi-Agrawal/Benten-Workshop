@@ -1,0 +1,9 @@
+Exercise 4
+1.  Use the Skyscanner Flight Search API by rapidapi.com to get flight details 
+2.  Sign up to rapidapi.com to get X-RapidAPI-Key
+3.  Go to https://rapidapi.com/skyscanner/api/skyscanner-flight-search?endpoint=5aa1eca4e4b00687d357427e 
+4.  Use Browse Routes REST API
+5.  Try out the api in the rapidapi.com console by giving correct parameters - e.g. country - "IN", currency - "INR", 
+    originplace - 'DEL',  destinationplace - 'CCU', outboundpartialdate - '2019-02-24'
+    
+    You can also try out the rest api in postaman or curl command
