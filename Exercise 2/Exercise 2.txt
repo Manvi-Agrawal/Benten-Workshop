@@ -1,0 +1,4 @@
+Exercise 2 
+1.  Add a new Action File named - "FlightEnquiryAction.java" in package com/flight
+2.  The new action should read the user data entered in the slack against the intent created.
+3.  Print the values entered by user in the console.
