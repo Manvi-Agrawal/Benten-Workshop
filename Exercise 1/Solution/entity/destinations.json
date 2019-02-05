@@ -1,0 +1,80 @@
+{
+  "id": "349a0360-c003-429e-b0c4-1d03a5721a43",
+  "name": "destinations",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "BLR",
+      "synonyms": [
+        "BLR",
+        "bang",
+        "BANG",
+        "Bangalore",
+        "bangalore",
+        "bengaluru",
+        "BBANGALORE",
+        "blr",
+        "Blr"
+      ]
+    },
+    {
+      "value": "DEL",
+      "synonyms": [
+        "DEL",
+        "New Delhi",
+        "Delhi",
+        "delhi",
+        "DELHI",
+        "NEW DELHI",
+        "Newdelhi",
+        "newdelhi",
+        "del"
+      ]
+    },
+    {
+      "value": "BOM",
+      "synonyms": [
+        "BOM",
+        "Mumbai",
+        "mumbai",
+        "mum",
+        "MUM",
+        "Mum",
+        "MUMBAI",
+        "bom",
+        "BOMBAY",
+        "Bombay",
+        "bombay"
+      ]
+    },
+    {
+      "value": "IXL",
+      "synonyms": [
+        "LEH",
+        "Leh",
+        "leh",
+        "Leh Ladhak",
+        "ladakh",
+        "Ladhak",
+        "LADHAK"
+      ]
+    },
+    {
+      "value": "CCU",
+      "synonyms": [
+        "CCU",
+        "kolkata",
+        "Kolkata",
+        "KOLKATA",
+        "cal",
+        "calcutta",
+        "Cal",
+        "ccu",
+        "Calcutta",
+        "CALCUTTA"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
