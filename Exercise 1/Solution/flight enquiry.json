@@ -1,0 +1,165 @@
+{
+  "id": "0a5f98e5-9c75-4628-92d7-3d916b536386",
+  "name": "flight enquiry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "action_flight_enquiry",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dd28f38b-f664-48ae-82d2-99da2b61e7ba",
+          "required": true,
+          "dataType": "@destinations",
+          "name": "from",
+          "value": "$from",
+          "prompts": [
+            "Where do you want to book your flight from (origin)?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "67ac4815-ab0c-4c1f-9a1e-8c1bc826e9f8",
+          "required": true,
+          "dataType": "@destinations",
+          "name": "to",
+          "value": "$to",
+          "prompts": [
+            "What is your destination?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "05431bb6-1997-4ac9-a97c-0ed20d431c09",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            "Please enter the date of your travel (YYYY_MM_DD)."
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks for your enquiry. getting you the details..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549356667,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "53049a60-42a9-4cd1-b9b5-022fb5efbf45",
+      "data": [
+        {
+          "text": "flight details for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1549356667,
+      "isAuto": false
+    },
+    {
+      "id": "5a802de3-e9ef-4819-b483-e52aa7cb78a2",
+      "data": [
+        {
+          "text": "flight details from "
+        },
+        {
+          "text": "Bangalore",
+          "alias": "from",
+          "meta": "@destinations",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Delhi",
+          "alias": "to",
+          "meta": "@destinations",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1549356573,
+      "isAuto": false
+    },
+    {
+      "id": "0b99e2ad-33a7-4ae1-8b95-edc13d2f11d8",
+      "data": [
+        {
+          "text": "flight details"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548843555,
+      "isAuto": false
+    },
+    {
+      "id": "2c06882b-015c-41d8-be02-ff6b25fe1ef3",
+      "data": [
+        {
+          "text": "Can you give me the flight details from "
+        },
+        {
+          "text": "Bangalore",
+          "alias": "from",
+          "meta": "@destinations",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Delhi",
+          "alias": "to",
+          "meta": "@destinations",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "2019-04-02",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1548843555,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
