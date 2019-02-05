@@ -1,4 +1,9 @@
 Exercise 5
 1.  Use the rest api in Exercise 4 in the action file to make a call to get flight details using the data recieved through
     slack
-2. 
+2.  Create the get url.
+3.  Add the "X-RapidAPI-Key" in the header
+4.  Make the http get call
+5.  Get the response
+6.  Send the response as it is in Slack.
+
