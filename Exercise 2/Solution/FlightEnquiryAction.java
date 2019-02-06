@@ -23,6 +23,8 @@ public class FlightEnquiryAction implements BentenActionHandler {
     String dateOfTravel = BentenMessageHelper.getParameterAsString(bentenMessage, "date");
 
     BentenHandlerResponse bentenHandlerResponse = new BentenHandlerResponse();
+    BentenSlackResponse bentenSlackResponse = new BentenSlackResponse();
+    bentenHandlerResponse.setBentenSlackResponse(bentenSlackResponse);
 
 
 
