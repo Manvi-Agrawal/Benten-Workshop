@@ -19,10 +19,7 @@ import javafx.util.*;
 import java.util.*;
 
 
-/**
- * @author Divakar Ungatla
- * @version 1.0
- */
+
 @Component
 @ActionHandler(action = "action_flight_enquiry")
 public class FlightEnquiryAction implements BentenActionHandler {
@@ -118,7 +115,7 @@ public class FlightEnquiryAction implements BentenActionHandler {
                 arrayList.sort(Comparator.comparing(Pair::getKey));
 
                 for(int i=0;i<arrayList.size();i++)
-                    responseMessage = responseMessage + "Price :"+arrayList.get(i).getKey().toString()+" || Time: "+arrayList.get(i).getValue() + "\n";
+                    responseMessage = responseMessage + "Price:"+arrayList.get(i).getKey().toString()+" || Time: "+arrayList.get(i).getValue() + "\n";
             }
             bentenSlackResponse.setSlackText(responseMessage);
             bentenMessage.getChannel().sendMessage(bentenHandlerResponse,bentenMessage.getChannelInformation());
