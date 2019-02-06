@@ -10,4 +10,4 @@ Exercise 4
     
     
 cURL command example 
-curl --get --include 'https://skyscanner-skyscanner-flight-search-    v1.p.rapidapi.com/apiservices/browseroutes/v1.0/US/USD/en-US/SFO-sky/ORD-sky/2019-02-06'   -H 'X-RapidAPI-Key: 2b36c8b16dmshccc35465faa13f1p120c23jsn1b4cc17d4912'
+curl --get --include 'https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browseroutes/v1.0/US/USD/en-US/SFO-sky/ORD-sky/2019-02-06'   -H 'X-RapidAPI-Key:2b36c8b16dmshccc35465faa13f1p120c23jsn1b4cc17d4912'
