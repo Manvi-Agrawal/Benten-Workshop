@@ -1,0 +1,8 @@
+Exercise 6
+From the previous exercise 5, once you are able to get data from api (result is in json which was directly send to slack
+as it is.). The data recieved from the api is raw json. Now let us try to make sense of the data and format it in a wy that
+the information is useful for the user.
+
+1.  Go through the json output and list down the fields that are relevant to user.
+2.  Now filter those fields and print the items in the console.
+3.  Send the response created to slack. 
