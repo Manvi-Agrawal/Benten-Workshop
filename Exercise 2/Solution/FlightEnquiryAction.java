@@ -8,6 +8,7 @@ import com.intuit.benten.common.http.HttpHelper;
 import com.intuit.benten.common.nlp.BentenMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import com.intuit.benten.common.actionhandlers.BentenSlackResponse;
 
 
 
