@@ -29,6 +29,7 @@ public class FlightEnquiryAction implements BentenActionHandler {
       System.out.println("Origin: "+originPlace);
       System.out.println("Destination: "+ destinationPlace);
       System.out.println("Date: "+dateOfTravel);
+      bentenSlackResponse.setSlackText("`Ok I completed what you asked me to do`."); 
 
    return bentenHandlerResponse;
 
