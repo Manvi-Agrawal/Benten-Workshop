@@ -8,7 +8,6 @@ import com.intuit.benten.common.http.HttpHelper;
 import com.intuit.benten.common.nlp.BentenMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.intuit.benten.common.actionhandlers.BentenSlackResponse;
 
 
 
@@ -24,15 +23,12 @@ public class FlightEnquiryAction implements BentenActionHandler {
     String dateOfTravel = BentenMessageHelper.getParameterAsString(bentenMessage, "date");
 
     BentenHandlerResponse bentenHandlerResponse = new BentenHandlerResponse();
-    BentenSlackResponse bentenSlackResponse = new BentenSlackResponse();
-    bentenHandlerResponse.setBentenSlackResponse(bentenSlackResponse);
-
-
+   
 
       System.out.println("Origin: "+originPlace);
       System.out.println("Destination: "+ destinationPlace);
       System.out.println("Date: "+dateOfTravel);
-      bentenSlackResponse.setSlackText("`Ok I completed what you asked me to do`."); 
+    
 
    return bentenHandlerResponse;
 
